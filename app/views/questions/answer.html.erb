@@ -1,0 +1,20 @@
+<!--  display question -->
+<h1>You | <%= @question %></h1>
+
+<!-- display answer -->
+<h2>Coach | <%= @answer %></h2>
+
+<!-- ask again form -->
+
+<form action="/ask" class="inline">
+  <h1>Wanna go back to the homepage?</h1>
+  <button class="float-left submit-button" >CLICK HERE</button>
+</form>
+
+
+<form action="answer">
+  <h2>STUPID COACHING</h2>
+  <p>Wanna ask again?</p>
+  <input type="text" name="question">
+  <input type="submit" value="ASK">
+</form>
